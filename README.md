@@ -1,8 +1,10 @@
 # Collage Resource Management
 In this project we are connecting oracle db using python. We are performing CRUD operations on the data. We are initiallizing database with all the branches data which includes information on students, subjects and professors. 
 
+
 ## Project Architecture
 ![Alt text](design_diagram.png)
+
 
 ## Environment setup
 - Follow first 3 steps for Windows listed on this page - https://www.oracle.com/database/technologies/appdev/python/quickstartpythononprem.html
@@ -20,6 +22,7 @@ Once oracle db is installed successfully follow these steps to create user. Try 
 4. exit from sqlplus
 5. login with - sqlplus pydbuser/oracle@localhost:1521/xepdb1
 
+
 ## Steps to clone Git repository
 1. Follow these steps to generate ssh key for gitrepo
    - ssh-keygen -t ed25519 -C "yshardul@gmail.com". Keep on pressing "Enter" to use all default locations and file names.
@@ -34,6 +37,7 @@ Once oracle db is installed successfully follow these steps to create user. Try 
    - Click on "Add SSH key".
 3. Run command - git clone git@github.com:yshardulgmail/python_oracle.git
 
+
 ## Steps to create new repo
 1. On Github's home page, click on "New" to create new repo.
 2. Enter repo name and make it public by selecting that option.
@@ -46,6 +50,7 @@ Once oracle db is installed successfully follow these steps to create user. Try 
    -  git add .
    -  git commit -a -v -m "<Some commit message>"
    -  git push origin main
+     
 
 ## Run the project
 1. Make sure your DB is running.
